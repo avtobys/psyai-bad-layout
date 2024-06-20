@@ -1,0 +1,46 @@
+{
+  "name": "psyai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --env project=provider",
+    "build": "webpack build --mode=production --env project=provider",
+    "start:admin": "webpack serve --env project=admin",
+    "start:client": "webpack serve --env project=client",
+    "start:provider": "webpack serve --env project=provider",
+    "build:admin": "webpack build --mode=production --env project=admin",
+    "build:client": "webpack build --mode=production --env project=client",
+    "build:provider": "webpack build --mode=production --env project=provider"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.1",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "glob": "^10.3.15",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "postcss-loader": "^8.1.1",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "purgecss-webpack-plugin": "^6.0.0",
+    "sass": "^1.77.1",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.10",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
+}

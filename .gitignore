@@ -1,0 +1,13 @@
+push.sh
+.vscode
+.docker/database
+database
+**/vendor
+.composer
+phpmyadmin
+**/log
+*.log
+**/tmp
+**/cache
+node_modules
+**/node_modules

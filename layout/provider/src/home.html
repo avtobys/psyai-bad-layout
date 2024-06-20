@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>psyai</title>
+  <link rel="stylesheet" href="/assets/css/main.css?<%= cssHash %>">
+</head>
+
+<body>
+  <div class="wrapper-def">
+    <div class="profile-mob modal-mob">
+      <div class="modal-mob__top">
+        <div class="logo-def modal-mob__logo">
+          <img class="logo-def__logo" src=<%=require("./assets/img/logo.svg").default%> />
+        </div>
+        <div class="modal-mob__btn">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.42383 18.4844L18.3944 1.51381" stroke="#3F4455" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M1.42383 1.51562L18.3944 18.4862" stroke="#3F4455" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+      </div>
+      <div class="modal-mob__content">
+        <ul class="modal-mob__links">
+          <li><a class="text-blue" href="#">Личные данные</a></li>
+          <li><a href="#">Визитка</a></li>
+          <li><a href="#">Управление аккаунтом</a></li>
+          <li><a class="text-red" href="#">Выйти</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="notify-mob modal-mob">
+      <div class="modal-mob__top">
+        <div class="logo-def modal-mob__logo"><img class="logo-def__logo"
+            src=<%=require("./assets/img/logo.svg").default%> /></div>
+        <div class="modal-mob__btn">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.42383 18.4844L18.3944 1.51381" stroke="#3F4455" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M1.42383 1.51562L18.3944 18.4862" stroke="#3F4455" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+      </div>
+      <div class="modal-mob__content">
+        <a class="notify-el modal-mob__el" href="#">
+          <div class="notify-el__title">Клиент подписал договор</div>
+          <div class="notify-el__date">10.05.2024</div>
+        </a>
+        <a class="notify-el modal-mob__el" href="#">
+          <div class="notify-el__title">Клиент подписал договор</div>
+          <div class="notify-el__date">10.05.2024</div>
+        </a>
+        <a class="notify-el modal-mob__el" href="#">
+          <div class="notify-el__title">Клиент подписал договор</div>
+          <div class="notify-el__date">10.05.2024</div>
+        </a>
+        <a class="notify-el modal-mob__el" href="#">
+          <div class="notify-el__title">Клиент подписал договор</div>
+          <div class="notify-el__date">10.05.2024</div>
+        </a>
+        <a class="notify-el modal-mob__el" href="#">
+          <div class="notify-el__title">Клиент подписал договор</div>
+          <div class="notify-el__date">10.05.2024</div>
+        </a>
+        <a class="notify-el modal-mob__el" href="#">
+          <div class="notify-el__title">Клиент подписал договор</div>
+          <div class="notify-el__date">10.05.2024</div>
+        </a>
+        <a class="notify-el modal-mob__el" href="#">
+          <div class="notify-el__title">Клиент подписал договор</div>
+          <div class="notify-el__date">10.05.2024</div>
+        </a>
+      </div>
+    </div>
+    <div class="top-mob">
+      <div class="top-mob__wrap">
+        <div class="top-mob__content">
+          <div class="logo-def top-mob__logo"><img class="logo-def__logo"
+              src=<%=require("./assets/img/logo.svg").default%> /></div>
+          <div class="top-mob__right">
+            <div class="btn-act top-mob__notify">
+              <div class="btn-act__top">
+                <div class="btn-act__count">99</div>
+                <svg class="btn-act__icon" width="22" height="24" viewBox="0 0 22 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.2216 7.56667C17.2216 5.95769 16.566 4.41461 15.3991 3.27689C14.2322 2.13916 12.6496 1.5 10.9993 1.5C9.34911 1.5 7.76647 2.13916 6.59957 3.27689C5.43268 4.41461 4.77713 5.95769 4.77713 7.56667C4.77713 14.6444 1.66602 17.8333 1.66602 17.8333H20.3327C20.3327 17.8333 17.2216 14.6444 17.2216 7.56667Z"
+                    stroke="#3F4455" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M13.3327 21.334C13.0956 21.6888 12.7552 21.9834 12.3457 22.1881C11.9362 22.3929 11.4719 22.5007 10.9993 22.5007C10.5268 22.5007 10.0625 22.3929 9.65299 22.1881C9.24349 21.9834 8.90314 21.6888 8.66602 21.334"
+                    stroke="#3F4455" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+            </div>
+            <div class="top-mob__profile profile-min">
+              <!-- <div class="profile-min__img">СР</div> -->
+              <img src=<%=require("./assets/img/profile.svg").default%> alt="" class="profile-min__img">
+            </div>
+            <div class="top-mob__btn btn-burger">
+              <div class="btn-burger__content">
+                <div class="btn-burger__el"></div>
+                <div class="btn-burger__el"></div>
+                <div class="btn-burger__el"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sec-lk">
+      <div class="sec-lk__sidebar sidebar-def">
+        <div class="sidebar-def__scroll">
+          <div class="sidebar-def__content">
+            <div class="sidebar-def__top">
+              <div class="sidebar-def__logo logo-def">
+                <img class="logo-def__logo" src=<%=require("./assets/img/logo.svg").default%> />
+              </div>
+              <div class="sidebar-def__warning icon-text">
+                <div class="icon-text__icon"><img class="icon-text__icon-img"
+                    src=<%=require("./assets/icons/shield.svg").default%> alt=""></div>
+                <div class="icon-text__text">Защита данных по 152-ФЗ</div>
+              </div>
+            </div>
+            <button class="mb-4 btn btn-primary sidebar-def__btn">
+              <div class="btn__icon2">
+                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0.5" y="1" width="19" height="19" rx="9.5" stroke="white" />
+                  <path d="M10 7.14844V13.8522" stroke="white" stroke-linecap="round" />
+                  <path d="M6.64844 10.5L13.3522 10.5" stroke="white" stroke-linecap="round" />
+                </svg>
+              </div>
+              <span>Добавить клиента</span>
+            </button>
+            <div class="sidebar-def__block">
+              <a class="sidebar-def__link link-def active" href="#">
+                <div class="link-def__icon">
+                  <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1.16602 15.4993C1.16602 13.6584 3.77769 12.166 6.99935 12.166C10.221 12.166 12.8327 13.6584 12.8327 15.4993"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M7.00065 8.83333C9.30184 8.83333 11.1673 6.96785 11.1673 4.66667C11.1673 2.36548 9.30184 0.5 7.00065 0.5C4.69946 0.5 2.83398 2.36548 2.83398 4.66667C2.83398 6.96785 4.69946 8.83333 7.00065 8.83333Z"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="link-def__text">Мои клиенты</div>
+              </a>
+              <a class="sidebar-def__link link-def" href="#">
+                <div class="link-def__icon">
+                  <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="5.41363" cy="13.5386" r="2.15972" stroke="#3F4455" />
+                    <circle cx="14.5855" cy="13.5386" r="2.15972" stroke="#3F4455" />
+                    <path
+                      d="M10.6406 19.6092C11.3263 18.1155 12.8353 17.0781 14.5865 17.0781C16.3377 17.0781 17.8467 18.1155 18.5323 19.6092"
+                      stroke="#3F4455" stroke-linecap="round" />
+                    <path
+                      d="M1.4668 19.6092C2.15249 18.1155 3.66143 17.0781 5.41266 17.0781C7.16388 17.0781 8.67282 18.1155 9.35852 19.6092"
+                      stroke="#3F4455" stroke-linecap="round" />
+                    <path
+                      d="M14.9017 1.39062H4.79883C4.24654 1.39062 3.79883 1.83834 3.79883 2.39062V7.21249C3.79883 7.76478 4.24654 8.21249 4.79883 8.21249H9.70103C9.75626 8.21249 9.80103 8.25726 9.80103 8.31249V10.3981C9.80103 10.4872 9.90874 10.5318 9.97174 10.4688L12.1988 8.24178C12.2175 8.22303 12.2429 8.21249 12.2695 8.21249H14.9017C15.454 8.21249 15.9017 7.76478 15.9017 7.21249V2.39063C15.9017 1.83834 15.454 1.39062 14.9017 1.39062Z"
+                      stroke="#3F4455" />
+                  </svg>
+                </div>
+                <div class="link-def__text">Супервизия</div>
+              </a>
+              <a class="sidebar-def__link link-def" href="#">
+                <div class="link-def__icon">
+                  <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13 6.5C13 9.81371 10.3137 12.5 7 12.5C5.81929 12.5 4.71824 12.159 3.78998 11.57L1 12.5L1.92999 9.71002C1.34104 8.78176 1 7.68071 1 6.5C1 3.18629 3.68629 0.5 7 0.5C10.3137 0.5 13 3.18629 13 6.5Z"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M7.33789 12.4896C8.15862 14.8254 10.3838 16.5 13.0001 16.5C14.1808 16.5 15.2819 16.159 16.2101 15.57L19.0001 16.5L18.0701 13.71L18.2122 13.4744C18.7136 12.5977 19.0001 11.5823 19.0001 10.5C19.0001 7.1863 16.3138 4.5 13.0001 4.5L12.7752 4.50414L12.6623 4.51014"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M6.98877 7.00952V4.47266L6.98881 6.61247M6.98877 7.00952V9.54639M6.98877 7.00952C6.30401 7.06088 4.93448 6.85137 4.93448 5.60246C4.93448 4.55434 4.57822 4.47264 4.27734 4.47266M6.98877 7.00952C7.85525 7.08472 9.04311 6.64004 9.04311 5.60245C9.04311 4.55434 9.39937 4.47264 9.70024 4.47266"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="link-def__text">Мои супервизанты</div>
+              </a>
+              <a class="sidebar-def__link link-def" href="#">
+                <div class="link-def__icon">
+                  <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M17.3369 9.50049C17.3369 14.1046 13.6046 17.8369 9.00049 17.8369C7.36001 17.8369 5.8302 17.3631 4.54047 16.5448L0.664062 17.8369L1.9562 13.9605C1.13791 12.6708 0.664062 11.141 0.664062 9.50049C0.664062 4.89641 4.39641 1.16406 9.00049 1.16406C13.6046 1.16406 17.3369 4.89641 17.3369 9.50049Z"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M8.98798 10.0091V6.48438L8.98803 9.45744M8.98798 10.0091V13.5338M8.98798 10.0091C8.03656 10.0805 6.13373 9.78938 6.13373 8.05412C6.13373 6.59787 5.63874 6.48435 5.2207 6.48438M8.98798 10.0091C10.1919 10.1136 11.8423 9.49575 11.8423 8.05412C11.8423 6.59787 12.3373 6.48435 12.7553 6.48438"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="link-def__text">Мои гипервизанты</div>
+              </a>
+            </div>
+            <div class="sidebar-def__block">
+              <a class="sidebar-def__link link-def" href="#">
+                <div class="link-def__icon">
+                  <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M15.5 16L11.8807 12.3807M11.8807 12.3807C13.0871 11.1743 13.8333 9.50762 13.8333 7.66667C13.8333 3.98477 10.8486 1 7.16667 1C3.48477 1 0.5 3.98477 0.5 7.66667C0.5 11.3486 3.48477 14.3333 7.16667 14.3333C9.00762 14.3333 10.6743 13.5871 11.8807 12.3807Z"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="link-def__text">Гид по техникам</div>
+              </a>
+              <a class="sidebar-def__link link-def" href="#">
+                <div class="link-def__icon">
+                  <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.33398 10.5H9.66732" stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M1.33398 7.16602H14.6673" stroke="#3F4455" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M1.33398 3.83398H9.66732" stroke="#3F4455" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M1.33398 0.5H14.6673" stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="link-def__text">База знаний</div>
+              </a>
+            </div>
+            <div class="sidebar-def__block">
+              <a class="sidebar-def__link link-def" href="#">
+                <div class="link-def__icon">
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10.5 5.83398C10.5 8.59541 8.26142 10.834 5.5 10.834C4.51608 10.834 3.59853 10.5498 2.82498 10.059L0.5 10.834L1.27499 8.509C0.784202 7.73545 0.5 6.81791 0.5 5.83398C0.5 3.07256 2.73858 0.833984 5.5 0.833984C8.26142 0.833984 10.5 3.07256 10.5 5.83398Z"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M5.78125 10.824C6.46519 12.7705 8.31953 14.166 10.4998 14.166C11.4837 14.166 12.4013 13.8818 13.1748 13.391L15.4998 14.166L14.7248 11.841L14.8432 11.6447C15.261 10.9141 15.4998 10.0679 15.4998 9.16602C15.4998 6.4046 13.2612 4.16602 10.4998 4.16602L10.3123 4.16946L10.2183 4.17446"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="link-def__text">Чат с юристом</div>
+              </a>
+              <a class="sidebar-def__link link-def" href="#">
+                <div class="link-def__icon">
+                  <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 0.5V15.5" stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M8.47287 3H3.26454C2.61992 3 2.0017 3.26339 1.54588 3.73223C1.09006 4.20107 0.833984 4.83696 0.833984 5.5C0.833984 6.16304 1.09006 6.79893 1.54588 7.26777C2.0017 7.73661 2.61992 8 3.26454 8H6.73676C7.38139 8 7.99961 8.26339 8.45543 8.73223C8.91124 9.20107 9.16732 9.83696 9.16732 10.5C9.16732 11.163 8.91124 11.7989 8.45543 12.2678C7.99961 12.7366 7.38139 13 6.73676 13H0.833984"
+                      stroke="#3F4455" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="link-def__text">Принять платеж из-за рубежа</div>
+              </a>
+            </div>
+            <div class="sidebar-def__linksBottom">
+              <a class="sidebar-def__linkBottom link-def" href="#">
+                <div class="link-def__text">Служба поддержки</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="sidebar-def__bottom">
+          <div class="icon-text-2">
+            <div class="icon-text-2__icon">
+              <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M7.62472 0.125C8.75332 0.177983 9.83667 0.427983 10.8747 0.875C12.3674 0.0158125 13.8674 -0.025855 15.3747 0.75C15.9907 1.5123 16.3657 2.3873 16.4997 3.375C18.3872 4.09605 19.8039 5.34605 20.7497 7.125C21.0273 8.60643 20.8606 10.0231 20.2497 11.375C20.5315 13.5168 20.1148 15.5168 18.9997 17.375C18.3324 18.041 17.5407 18.4994 16.6247 18.75C15.8099 21.1576 14.1432 21.991 11.6247 21.25C11.1247 20.75 10.6247 20.75 10.1247 21.25C8.65492 21.5557 7.27992 21.3473 5.99972 20.625C5.75545 19.9744 5.4638 19.3494 5.12472 18.75C3.33305 18.2917 2.20805 17.1667 1.74973 15.375C1.6664 14.0417 1.58305 12.7083 1.49973 11.375C0.261268 8.65002 0.802933 6.35835 3.12473 4.5C3.85285 4.15685 4.56117 3.78185 5.24972 3.375C5.32437 1.71168 6.11605 0.62833 7.62472 0.125ZM8.12472 1.875C9.0154 1.9063 9.6404 2.32297 9.99972 3.125C10.1664 8.375 10.1664 13.625 9.99972 18.875C9.90617 19.104 9.78117 19.3124 9.62472 19.5C8.95805 19.6667 8.2914 19.6667 7.62472 19.5C7.23615 18.8286 6.90282 18.1203 6.62472 17.375C3.54383 16.5466 2.5855 14.6299 3.74973 11.625C4.8142 10.3036 5.85587 10.3036 6.87472 11.625C7.34872 11.8664 7.84872 11.9497 8.37472 11.875C8.30317 9.92912 7.26152 8.92912 5.24972 8.875C4.37785 8.93598 3.62785 9.2693 2.99973 9.875C2.33013 8.45065 2.6218 7.2423 3.87472 6.25C4.72167 5.65985 5.63832 5.20153 6.62472 4.875C6.99195 4.17553 7.20027 3.42552 7.24972 2.625C7.536 2.3409 7.82765 2.0909 8.12472 1.875ZM13.1247 1.875C13.6695 1.96 14.1278 2.21 14.4997 2.625C14.5978 3.40825 14.8062 4.15825 15.1247 4.875C16.5556 5.27738 17.7639 6.02738 18.7497 7.125C19.2328 8.05805 19.2328 8.9747 18.7497 9.875C16.8675 8.46467 15.1175 8.63135 13.4997 10.375C13.2431 11.1483 13.4515 11.7317 14.1247 12.125C16.4635 9.87305 17.9635 10.373 18.6247 13.625C18.3218 15.678 17.1551 16.928 15.1247 17.375C14.9096 18.1483 14.5763 18.8567 14.1247 19.5C13.3924 19.6943 12.684 19.6526 11.9997 19.375C11.833 13.7917 11.833 8.20832 11.9997 2.625C12.3519 2.30472 12.7269 2.05473 13.1247 1.875Z"
+                  fill="#4D53E8" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8.37609 4.625C9.40369 5.32028 9.61201 6.23695 9.00109 7.375C8.05539 8.35658 6.93039 8.60658 5.62609 8.125C5.30554 7.59452 5.43054 7.17788 6.00109 6.875C7.31369 6.83267 7.85534 6.16603 7.62609 4.875C7.94884 4.93433 8.19884 4.851 8.37609 4.625Z"
+                  fill="#4D53E8" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M13.3744 4.625C13.6601 4.72703 13.9101 4.8937 14.1244 5.125C14.2636 5.5588 14.3469 5.97545 14.3744 6.375C14.9753 6.5875 15.5587 6.8375 16.1244 7.125C16.4546 8.07275 16.0796 8.48942 14.9994 8.375C12.9104 8.1183 12.1187 6.95163 12.6244 4.875C12.9471 4.93433 13.1971 4.851 13.3744 4.625Z"
+                  fill="#4D53E8" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M6.1245 13.125C8.55463 13.5655 9.38798 14.9822 8.6245 17.375C8.29118 17.7083 7.95783 17.7083 7.6245 17.375C7.27545 16.7571 7.0671 16.0904 6.9995 15.375C6.52045 15.018 5.97878 14.768 5.3745 14.625C5.0847 13.8712 5.3347 13.3712 6.1245 13.125Z"
+                  fill="#4D53E8" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M14.8752 13.1249C16.0969 13.0122 16.5969 13.5122 16.3752 14.6249C15.7709 14.768 15.2292 15.018 14.7502 15.3749C14.7262 16.1127 14.5178 16.7794 14.1252 17.3749C13.7495 17.513 13.3328 17.513 12.8752 17.3749C12.4193 15.3715 13.086 13.9549 14.8752 13.1249Z"
+                  fill="#4D53E8" />
+              </svg>
+            </div>
+            <div class="icon-text-2__text">Предложить идею</div>
+          </div>
+        </a>
+      </div>
+      <div class="sec-lk__body">
+        <div class="sec-lk__header top-header">
+          <div class="top-header__wrap">
+            <div class="top-header__content">
+              <a href="#" class="top-header__prev btn-icon">
+                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 1L1 7L7 13" stroke="#3F4455" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <div class="title-bold overflow-hidden text-nowrap">Мои клиенты</div>
+              <div class="top-header__right">
+                <div class="top-header__notify btn-act">
+                  <div class="btn-act__top">
+                    <div class="btn-act__count">99</div>
+                    <svg class="btn-act__icon" width="22" height="24" viewBox="0 0 22 24" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M17.2216 7.56667C17.2216 5.95769 16.566 4.41461 15.3991 3.27689C14.2322 2.13916 12.6496 1.5 10.9993 1.5C9.34911 1.5 7.76647 2.13916 6.59957 3.27689C5.43268 4.41461 4.77713 5.95769 4.77713 7.56667C4.77713 14.6444 1.66602 17.8333 1.66602 17.8333H20.3327C20.3327 17.8333 17.2216 14.6444 17.2216 7.56667Z"
+                        stroke="#3F4455" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M13.3327 21.334C13.0956 21.6888 12.7552 21.9834 12.3457 22.1881C11.9362 22.3929 11.4719 22.5007 10.9993 22.5007C10.5268 22.5007 10.0625 22.3929 9.65299 22.1881C9.24349 21.9834 8.90314 21.6888 8.66602 21.334"
+                        stroke="#3F4455" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="btn-act__dropdown">
+                    <div class="btn-act__dropdown dropdown-def">
+                      <div class="dropdown-def__top">
+                        <div class="dropdown-def__title text-title">Уведомления</div>
+                      </div>
+                      <div class="dropdown-def__scroll">
+                        <a class="dropdown-def__el notify-el" href="#">
+                          <div class="notify-el__title">Клиент подписал договор</div>
+                          <div class="notify-el__date">10.05.2024</div>
+                        </a>
+                        <a class="dropdown-def__el notify-el" href="#">
+                          <div class="notify-el__title">Клиент подписал договор</div>
+                          <div class="notify-el__date">10.05.2024</div>
+                        </a>
+                        <a class="dropdown-def__el notify-el" href="#">
+                          <div class="notify-el__title">Клиент подписал договор</div>
+                          <div class="notify-el__date">10.05.2024</div>
+                        </a>
+                        <a class="dropdown-def__el notify-el" href="#">
+                          <div class="notify-el__title">Клиент подписал договор</div>
+                          <div class="notify-el__date">10.05.2024</div>
+                        </a>
+                        <a class="dropdown-def__el notify-el" href="#">
+                          <div class="notify-el__title">Клиент подписал договор</div>
+                          <div class="notify-el__date">10.05.2024</div>
+                        </a>
+                        <a class="dropdown-def__el notify-el" href="#">
+                          <div class="notify-el__title">Клиент подписал договор</div>
+                          <div class="notify-el__date">10.05.2024</div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-header__profile profile-min">
+                  <div class="profile-min__top">
+                    <div class="profile-min__info">example@gmail.com</div>
+                    <!-- <div class="profile-min__img">СР</div> -->
+                    <img src=<%=require("./assets/img/profile.svg").default%> alt="" class="profile-min__img">
+                  </div>
+                  <div class="profile-min__dropdown">
+                    <ul class="profile-min__links">
+                      <li><a href="#">Личные данные</a></li>
+                      <li><a href="#">Визитка</a></li>
+                      <li><a href="#">Управление аккаунтом</a></li>
+                      <li><a class="text-red" href="#">Выйти</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec-lk__body-content">
+          <div class="top-bar sec-lk__bar">
+            <div class="top-bar__wrap">
+              <div class="top-bar__content">
+                <ul class="top-bar__tabs tabs-def">
+                  <li class="tabs-def__el"><a class="tabs-def__link btn btn-active" href="#">Активные</a></li>
+                  <li class="tabs-def__el"><a class="tabs-def__link btn btn-secondary" href="#">Архив</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <a class="block-add sec-lk__add" href="#">
+            <div class="block-add__content">
+              <div class="block-add__icon">
+                <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="22.5" width="40" height="3" rx="1.5" transform="rotate(90 22.5 0)" fill="#4D53E8" />
+                  <rect x="40.5" y="21" width="40" height="3" rx="1.5" transform="rotate(-180 40.5 21)"
+                    fill="#4D53E8" />
+                </svg>
+              </div>
+              <div class="block-add__title title-def title-def_main">Добавить клиента</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/js/main.js?<%= jsHash %>"></script>
+</body>
+
+</html>
